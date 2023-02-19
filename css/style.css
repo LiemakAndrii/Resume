@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype"),
+    url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+body {
+  background-color: #e5e5e5;
+  padding: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Main-content */
+.main-content {
+  padding: 88px;
+}
+
+/* About me */
+.about-me-container {
+  margin-bottom: 64px;
+}
+
+.my-profession {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+.my-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 28px 0;
+}
+
+.my-descr {
+  width: 525px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* Projects */
+.projects-container {
+  margin-bottom: 48px;
+}
+
+.main-content-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
+.project-list {
+  margin: 0;
+  padding-left: 14px;
+}
+
+.project-item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.project-item-descr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project-item-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
+}
+
+/* Work Experience */
+
+.work-experience-container {
+  margin-bottom: 44px;
+}
+
+.work-experience-position {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+.work-experience-place {
+  margin-bottom: 16px;
+}
+
+.work-experience-company {
+  color: #6d9bf5;
+}
+
+.work-period {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 12px 0 8px 0;
+}
+
+.work-duties {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.work-duties-list {
+  padding-left: 12px;
+  margin: 0;
+}
+
+/* Education */
+
+.education {
+/* margin-bottom: 107px; */
+}
+
+.education-place {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6d9bf5;
+  margin: 0 0 12px 0;
+}
+
+.education-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin:  0 0 12px 0;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 370px;
+  background-color: #e0ebfe;
+}
+
+.my-photo {
+  margin-top: 40px;
+}
+
+.sidebar-title {
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+
+/* Contacts */
+.contacts-container,
+.tech-skills-container,
+.soft-container {
+  margin: 40px 0 0 40px;
+}
+
+.contacts-type {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-right: 12px;
+}
+
+.contacts-item {
+  margin: 0;
+}
+
+.contacts-number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+.contacts-email {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+}
+
+/* Tech Skills */
+/* Soft Skills */
+
+.skills-list {
+  margin: 0;
+  padding: 0 0 0 12px;
+}
+
+.skills-list-item {
+  color: #6d9bf5;
+}
+
+.skills-list-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
